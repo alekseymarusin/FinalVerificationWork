@@ -10,7 +10,7 @@ int n = Convert.ToInt32(Console.ReadLine());
 string[] array = new string[n];
 for(int i = 0; i < n; i++)
 {
-    Console.Write($"Введите элемент: ");
+    Console.Write("Введите элемент: ");
     string m = Convert.ToString(Console.ReadLine());
     array[i] = m;
 } 
